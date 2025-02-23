@@ -1,0 +1,25 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+:root {
+--primary-font: "Poppins";
+--secondary-font:"Roboto";
+--primary-color:#314b21;
+--secondary-color:#7c3931;
+--highlight-color:#7a9981;
+}
+
+/* Global styles*/
+
+body {
+    font-family: var(--primary-font);
+    
+}
+
+h1,
+h2,
+h3{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    
+}
