@@ -46,7 +46,7 @@ header {
     padding: 0 1rem;
     position:fixed;
     width: 100%;
-    color: #f5f5f5;
+    
 }
 
 body {
@@ -64,5 +64,28 @@ header a {
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #f5f5f5;
+    color: var(--primary-color);
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid var(--secondary-color);
+
+}
+
+/*navbar styles with dropdown toggle*/
+nav {
+    position: absolute;
+    background-color: #f5f5f5;
+    width: 100%;
+    left:0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px var(--secondary-color);
+    display: none;
 }
