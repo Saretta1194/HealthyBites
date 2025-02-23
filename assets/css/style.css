@@ -53,8 +53,7 @@ header {
     box-shadow: 0 2px 2px var(--secondary-color);
     justify-content: space-between;
     align-items: baseline;
-
-    
+    z-index: 99; 
 }
 
 
@@ -102,9 +101,71 @@ nav {
 #nav-toggle-label {
     font-size: 2rem;
 }
+#logo {
+    font-size: 200%;
+    line-height: 70px;
+    margin: 0 0.5rem;
+}
 /*Main content*/
 main {
     background-color:#f5f5f5;
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: none;
 }
+/*Footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+#social-networks i {
+    font-size: 160%;
+    padding 5%;
+    color: var(--primary-color);
+
+
+}
+
+
+
+/* Media Queries for Different Screen Types */
+  
+  /* Tablets (768px and up) */
+  @media screen and (min-width: 768px) {
+  
+    nav {
+      display: block;
+      position: relative;
+      font-size: 1.4rem;
+      box-shadow: none;
+      width:fit-content;
+      padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 2rem;
+    }
+    .nav-toggle-label {
+        display:none;
+    }
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    }
+    
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid var(--secondary-color);
+    }
+
+} 
+   
+
