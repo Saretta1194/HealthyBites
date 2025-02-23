@@ -8,11 +8,21 @@
 --secondary-color:#7c3931;
 --highlight-color:#7a9981;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 /* Global styles*/
 
 body {
     font-family: var(--primary-font);
+    background: color #f5f5f5;;
+    color: var(--primary-color);
+    
+    
     
 }
 
@@ -23,3 +33,11 @@ h3{
     color: var(--primary-color);
     
 }
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
