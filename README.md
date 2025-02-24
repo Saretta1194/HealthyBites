@@ -86,7 +86,7 @@ Navbar and footer change layout depending on the size of the screen
 #### About Page
 - Provides information about the mission of HealthyBites.
 - Includes details about the creators or contributors and the contact form 
-The following fiels are required: Name, Email and Message.
+- The following fiels are required: Name, Email and Message.
 ![About page](assets/media/contact%20us.jpg)
 
 ### Performance
