@@ -230,6 +230,8 @@ hr {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
+    
+    
 }
 .recipe-card p {
     font-weight: bold;
@@ -413,6 +415,9 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    .recipe-card {
+        column-count: 2;
+    }
     
     /*hero*/
     #cover-text {
@@ -426,6 +431,7 @@ footer {
         width: 90%;
         padding: 20px;
     }
+
 }
     
 
@@ -437,6 +443,7 @@ footer {
     #menu a:hover{
         border-bottom: 1px solid var(--secondary-color);
     }
+
       /*gallery*/
       #photos {
         column-count: 3;
