@@ -285,6 +285,14 @@ hr {
     font-size: 150%;
 }
 
+/* Video */
+#video {
+    text-align: center;
+}
+
+video {
+    width: 40%;
+}
 /* Contact Us Section */
 .contact-us {
     max-width: 600px;
