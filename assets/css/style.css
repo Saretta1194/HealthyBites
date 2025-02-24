@@ -113,6 +113,19 @@ main {
     flex: 1 0 auto;
     margin-top: none;
 }
+.btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 15px;
+    width: 65%;
+    font-size: 20px;
+    font-family: var(--primary-font);
+}
 /*hero*/
 #hero{
    height:600px;
@@ -173,19 +186,24 @@ hr {
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-.btn {
-
+.btn1 {
     display: inline-block;
     background-color: var(--secondary-color);
-    position: fixed;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 15px;
     font-weight: bold;
     margin: 15px;
-
+    width: 92%;
+    font-size: 20px;
+    font-family: var(--primary-font);
 }
+
+   
+
+
+
 /*Recipes page*/
 .recipe-card {
     background-color: white;
