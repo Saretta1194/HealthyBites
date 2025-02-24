@@ -46,6 +46,8 @@ img {
     border-radius: 10px;
     display: block;
     margin: 20px auto;
+    margin-top: 2px;
+    
 }
 
 header {
@@ -196,6 +198,7 @@ hr {
     margin-bottom: 15px;
     box-sizing: border-box;
 }
+
 .btn1 {
     display: inline-block;
     background-color: var(--secondary-color);
@@ -215,6 +218,9 @@ hr {
 
 
 /*Recipes page*/
+.container {
+    margin-top: 78px;
+}
 .recipe-card {
     background-color: white;
     padding: 1rem;
@@ -229,10 +235,14 @@ hr {
 #photos img {
     width: 100%;
     line-height: 1rem;
+    display: grid;
 }
 
 #photos {
     line-height: 0;
+}
+.photos {
+    text-align: center;
 }
 /*About*/
 
