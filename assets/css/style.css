@@ -30,9 +30,13 @@ body {
 
 
 h1,
-h2{
+h2,
+h3 
+{
     font-family: var(--primary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
     
 }
 
@@ -61,11 +65,7 @@ header a {
    text-decoration: none;
    color: inherit;
 }
-h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--primary-color);
-}
+
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -117,7 +117,19 @@ main {
    height:600px;
    width: 100%;
    background: url("../images/welcome.jpg") no-repeat center/cover;
+   position: relative;
 
+}
+#cover-text {
+    background-color:rgb(122, 153, 129, .8 );
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+   
 }
 
 /*Footer*/
@@ -166,7 +178,16 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    main {
+        
+        margin-top: none;
     }
+    /*hero*/
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
     
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
