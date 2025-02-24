@@ -145,6 +145,15 @@ main {
     padding-left: 10px;
    
 }
+#energy {
+    width: 85%;
+    margin: 30px auto;
+}
+#energy h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 250%;}
+
 #why {
     width: 85%;
     margin: 30px auto;
@@ -160,6 +169,7 @@ main {
 }
 #benefits {
     margin-bottom:15px ;
+    
 }
 
 hr {
