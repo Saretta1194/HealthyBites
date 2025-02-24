@@ -49,9 +49,10 @@ img {
 }
 
 header {
+    top: 0;
     display:flex;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     width: 100%;
     background-color: #f5f5f5;
     box-shadow: 0 2px 2px var(--secondary-color);
@@ -175,6 +176,7 @@ hr {
 .btn {
     display: inline-block;
     background-color: var(--secondary-color);
+    position: fixed;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
